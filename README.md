@@ -9,4 +9,6 @@ EVENT_TYPE={{ Event Type }}
 ```
 
 2. execute script
+```
 ./run.sh
+```
