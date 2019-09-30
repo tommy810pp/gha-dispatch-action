@@ -6,9 +6,9 @@ const run = async () => {
   });
 
   const result = await octokit.repos.createDispatchEvent({
-    owner: 'Pay-Baymax',
-    repo: 'payment-test',
-    event_type: 'integration_test'
+    owner: process.env.OWNER,
+    repo: process.env.REPO,
+    event_type: process.env.EVENT_TYPE
   });
 
   console.log(result);
