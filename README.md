@@ -1,6 +1,7 @@
 1. make env file
 
-```env.list
+env.list
+```
 GITHUB_TOKEN={{ personal token }}
 OWNER={{ Repository Owner }}
 REPO={{ Repository name }}
