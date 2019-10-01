@@ -1,6 +1,8 @@
-1. make env file
+1. Clone This Repository
 
-env.list
+2. Make environmental file 
+
+- env.list
 ```
 GITHUB_TOKEN={{ personal token }}
 OWNER={{ Repository Owner }}
@@ -8,7 +10,7 @@ REPO={{ Repository name }}
 EVENT_TYPE={{ Event Type }}
 ```
 
-2. execute script
+3. execute script
 ```
 ./run.sh
 ```
